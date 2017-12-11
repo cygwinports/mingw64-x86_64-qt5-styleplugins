@@ -1,0 +1,9 @@
+--- origsrc/qtstyleplugins/src/plugins/platformthemes/platformthemes.pro	2017-10-21 23:45:01.000000000 -0500
++++ src/qtstyleplugins/src/plugins/platformthemes/platformthemes.pro	2017-12-11 10:48:12.608138800 -0600
+@@ -1,5 +1,5 @@
+ TEMPLATE = subdirs
+ 
+-packagesExist(gtk+-2.0) {
++packagesExist(gtk+-2.0 x11) {
+     SUBDIRS += gtk2
+ }
